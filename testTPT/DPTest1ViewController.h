@@ -10,4 +10,6 @@
 
 @interface DPTest1ViewController : UIViewController
 
+@property(nonatomic,retain) IBOutlet UILabel *label;
+
 @end
