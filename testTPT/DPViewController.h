@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface DPViewController : UIViewController
-
+{
+    IBOutlet UILabel * helloLabel;
+    NSString *version;
+}
 @end
