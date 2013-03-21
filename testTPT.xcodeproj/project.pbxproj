@@ -19,6 +19,8 @@
 		1B8A65B816FAC4F000A64359 /* DPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8A65B716FAC4F000A64359 /* DPViewController.m */; };
 		1B8A65BB16FAC4F000A64359 /* DPViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B8A65B916FAC4F000A64359 /* DPViewController_iPhone.xib */; };
 		1B8A65BE16FAC4F000A64359 /* DPViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B8A65BC16FAC4F000A64359 /* DPViewController_iPad.xib */; };
+		CD902C0E16FAD82700287422 /* DPTest1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD902C0C16FAD82700287422 /* DPTest1ViewController.m */; };
+		CD902C0F16FAD82700287422 /* DPTest1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD902C0D16FAD82700287422 /* DPTest1ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,9 @@
 		1B8A65B716FAC4F000A64359 /* DPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPViewController.m; sourceTree = "<group>"; };
 		1B8A65BA16FAC4F000A64359 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DPViewController_iPhone.xib; sourceTree = "<group>"; };
 		1B8A65BD16FAC4F000A64359 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DPViewController_iPad.xib; sourceTree = "<group>"; };
+		CD902C0B16FAD82700287422 /* DPTest1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTest1ViewController.h; sourceTree = "<group>"; };
+		CD902C0C16FAD82700287422 /* DPTest1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTest1ViewController.m; sourceTree = "<group>"; };
+		CD902C0D16FAD82700287422 /* DPTest1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DPTest1ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +97,9 @@
 				1B8A65B916FAC4F000A64359 /* DPViewController_iPhone.xib */,
 				1B8A65BC16FAC4F000A64359 /* DPViewController_iPad.xib */,
 				1B8A65A516FAC4EF00A64359 /* Supporting Files */,
+				CD902C0B16FAD82700287422 /* DPTest1ViewController.h */,
+				CD902C0C16FAD82700287422 /* DPTest1ViewController.m */,
+				CD902C0D16FAD82700287422 /* DPTest1ViewController.xib */,
 			);
 			path = testTPT;
 			sourceTree = "<group>";
@@ -168,6 +176,7 @@
 				1B8A65B516FAC4F000A64359 /* Default-568h@2x.png in Resources */,
 				1B8A65BB16FAC4F000A64359 /* DPViewController_iPhone.xib in Resources */,
 				1B8A65BE16FAC4F000A64359 /* DPViewController_iPad.xib in Resources */,
+				CD902C0F16FAD82700287422 /* DPTest1ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +190,7 @@
 				1B8A65AB16FAC4F000A64359 /* main.m in Sources */,
 				1B8A65AF16FAC4F000A64359 /* DPAppDelegate.m in Sources */,
 				1B8A65B816FAC4F000A64359 /* DPViewController.m in Sources */,
+				CD902C0E16FAD82700287422 /* DPTest1ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +323,7 @@
 				1B8A65C316FAC4F000A64359 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
