@@ -1,0 +1,3 @@
+[submodule "Components/CWUIKit"]
+	path = Components/CWUIKit
+	url = git@github.com:jayway/CWUIKit.git
